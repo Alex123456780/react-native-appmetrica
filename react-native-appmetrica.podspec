@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.source       = { :git => "https://github.com/Alex123456780/react-native-appmetrica.git" }
+  s.source       = { :git => "https://github.com/yandexmobile/react-native-appmetrica.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/RCTAppMetrica/RCTAppMetrica/*.{h,m}"
 
   s.dependency 'React'
